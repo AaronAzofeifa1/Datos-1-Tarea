@@ -1,7 +1,4 @@
-﻿Console.WriteLine("Hello, World!");
-using System;
-
-// NIVEL 1
+﻿// NIVEL 1
 class Animal
 {
     private string nombre;
