@@ -109,7 +109,7 @@ class Delfin : Mamifero
 
     public override void HacerSonido()
     {
-        Console.WriteLine(GetNombre() + " emite silbidos.");
+        Console.WriteLine(GetNombre() + " iiiiiiii.push");
     }
 
     public void Nadar()
@@ -165,9 +165,9 @@ class Program
     static void Main(string[] args)
     {
         Leon leon = new Leon("Simba", 5);
-        Delfin delfin = new Delfin("Flipper", 8);
-        Cocodrilo cocodrilo = new Cocodrilo("Coco", 12);
-        Serpiente serpiente = new Serpiente("Kaa", 4, true);
+        Delfin delfin = new Delfin("Delfino", 8);
+        Cocodrilo cocodrilo = new Cocodrilo("Dante", 12);
+        Serpiente serpiente = new Serpiente("Patricia", 4, true);
 
         leon.MostrarInfo();
         leon.HacerSonido();
