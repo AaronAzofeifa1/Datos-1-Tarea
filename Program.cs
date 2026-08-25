@@ -1,5 +1,5 @@
 ﻿// NIVEL 1
-class Animal
+class Animal  //1.Clase
 {
     private string nombre;
     private int edad;
@@ -30,7 +30,7 @@ class Animal
         this.edad = edad;
     }
 
-    public virtual void HacerSonido()
+    public virtual void HacerSonido() //2.Método
     {
         Console.WriteLine("El animal hace un sonido.");
     }
@@ -44,9 +44,9 @@ class Animal
 
 
 // NIVEL 2
-class Mamifero : Animal
+class Mamifero : Animal  //5.Herencia
 {
-    private bool tienePelo;
+    private bool tienePelo;  //4.Encapsulamiento
 
     public Mamifero(string nombre, int edad, bool tienePelo)
         : base(nombre, edad)
@@ -189,7 +189,7 @@ class Program
         serpiente.MostrarInfo();
         serpiente.HacerSonido();
 
-        // POLIMORFISMO
+        // 6.POLIMORFISMO
         Console.WriteLine("\n--- Sonidos de los animales ---");
 
         Animal[] animales = { leon, delfin, cocodrilo, serpiente };
